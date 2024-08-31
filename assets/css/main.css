@@ -73,6 +73,10 @@ font-weight: 900;
 }
 
 
+
+/*testimonials css*/
+
+
 /*footer css*/
 
 .footer{
@@ -125,6 +129,6 @@ font-weight: 900;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
 }
 
