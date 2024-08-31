@@ -20,11 +20,11 @@
   .header .logo img {
     width: 20px;
     }
-  }
+  
   .header .logo a{
     font-size: 14px;
   }
-
+}
 
   /* footer media query*/
 
@@ -41,7 +41,7 @@
   width: 100%;
   justify-content: space-between;
 } 
-
+}
 @media screen and (max-width: 768px) {
   .footer-end{
     gap:12px;
