@@ -17,6 +17,10 @@
     .container{
       width: calc(100% - 50px);
   }   
+ 
+}
+
+@media screen and (max-width: 400px) {
   .header .logo img {
     width: 20px;
     }
@@ -26,8 +30,117 @@
   }
 }
 
-  /* footer media query*/
+/* Section let's begin media query */
+@media screen and (max-width: 1600px) {
 
+  .lets-begin-start,
+  .lets-begin-end{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 757px) {
+
+  .begin .row {
+    gap:20px;
+  }
+  .lets-begin-start,
+  .lets-begin-end{
+    width: 100%;
+  }
+
+}
+
+/* Section Given courses media query */
+@media screen and (max-width: 1115px) {
+  .given-courses .row {
+    gap: 15px;
+  }
+.about-given{
+ width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.given-items {
+  flex-grow: 1;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.given-item {
+  width: calc((90% - 15px) / 2);
+}
+}
+
+@media screen and (max-width: 757px) {
+  .given-item {
+    width: calc(90% - 15px);
+  }
+}
+
+/* Section Selected Courses media query */
+@media screen and (max-width: 1150px) {
+  .selected-courses .row{
+  gap:20px;
+    }
+
+.static{
+  justify-content: space-between;
+
+}
+}
+
+
+
+/* Section Courses media query */
+@media screen and (max-width: 1300px) {
+  .courses .row{
+    gap:20px;
+  }
+  
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .course-items,
+  .course-description{
+    width: 100%;
+    gap: 10px;
+  }
+  .course-item{
+    width: calc((100% - 10px)/2);
+  }
+}
+
+
+@media screen and (max-width: 757px) {
+  .course-item{
+    width: 100%;
+  }
+  .courses .row{
+      gap:20px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+}
+
+
+/* section Testimonials media query */
+
+@media screen and (max-width: 768px) {
+  .testimonial {
+    width: 100%;
+  }
+}
+
+  /* footer media query*/
 
 @media screen and (max-width: 1200px) {
   .footer .row{
@@ -54,6 +167,15 @@
 
 
 @media screen and (max-width: 400px) {
+ 
+  .footer .logo img {
+    width: 20px;
+    }
+  
+  .footer .logo a{
+    font-size: 14px;
+  }
+
   .footer-end{
     gap:15px;
   }
